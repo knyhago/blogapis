@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 
 
-const url=process.env.MONGODB_URL;
+const url="mongodb+srv://knyhago:kenny@cluster0.2kzve.mongodb.net/?retryWrites=true&w=majority"||process.env.MONGODB_URL;
 
 
 
