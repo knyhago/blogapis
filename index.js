@@ -15,7 +15,7 @@ const url="mongodb+srv://knyhago:kenny@cluster0.2kzve.mongodb.net/?retryWrites=t
 
 
 
-const port=process.env.PORT||9090;
+const port=process.env.PORT&&9090;
 
 app.get('/',(req,res)=>{
     res.send("ok")
